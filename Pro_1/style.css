@@ -1,0 +1,83 @@
+.body .html{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110%;
+
+}
+.nav_bar {
+    background-color: white;
+    border-bottom-style: solid;
+    border-color: black;
+    position: relative;
+    width: 800;
+    height: 100px;
+    color: plum;
+    margin:2% 2%;
+
+}
+
+.nav_list {
+    list-style: none;
+    display: flex;
+    height: inherit;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2em;
+    color: black;
+}
+
+.nav_item{
+    display: flex;
+    align-items: center;
+    margin-right: 2em;
+    color: black;
+}
+
+.nav_item:first-child {
+margin-right: auto;
+}
+
+.nav_item > img {
+    width: 50px;
+}
+
+.sec-one-div > img {
+    width: 500px;
+}
+.sec-one-div {
+    position: relative;
+    display: flex;
+    width: inherit;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    background-color: plum;
+}
+
+.text-p {
+    height: 90px;
+    border-style: solid;
+    border-color: aqua;
+    display: block;
+    color: green;
+    text-align: center;
+    font-size: 60px;
+}
+.card {
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    justify-content: space-around;
+    background-color: yellow;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
